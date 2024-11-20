@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "appboxo-ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Appboxo/appboxo-ios-spm.git",
+      "state" : {
+        "revision" : "45bdd51a7022df14b36ae877c17532e3cc92c53f",
+        "version" : "1.7.4"
+      }
+    },
+    {
+      "identity" : "stripe-ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stripe/stripe-ios-spm.git",
+      "state" : {
+        "revision" : "7739f5abe2b2870989c40f8c524b8b6c79ce0710",
+        "version" : "24.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
