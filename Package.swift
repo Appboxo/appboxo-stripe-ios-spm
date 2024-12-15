@@ -14,7 +14,7 @@ let package = Package(
             targets: ["AppBoxoStripe"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Appboxo/appboxo-ios-spm.git", exact: "1.7.5"),
+        .package(url: "https://github.com/Appboxo/appboxo-ios-spm.git", exact: "1.7.7"),
         .package(url: "https://github.com/stripe/stripe-ios-spm.git", exact: "24.0.0")
     ],
     targets: [
