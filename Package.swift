@@ -4,25 +4,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppBoxoStripe",
+    name: "BoxoStripe",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "AppBoxoStripe",
-            targets: ["AppBoxoStripe"]),
+            name: "BoxoStripe",
+            targets: ["BoxoStripe"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Appboxo/appboxo-ios-spm.git", exact: "1.7.7"),
+        .package(url: "https://github.com/Appboxo/boxo-ios-spm.git", exact: "1.10.0"),
         .package(url: "https://github.com/stripe/stripe-ios-spm.git", exact: "24.0.0")
     ],
     targets: [
         .target(
-            name: "AppBoxoStripe",
+            name: "BoxoStripe",
             dependencies: [
                 .product(name: "StripePaymentSheet", package: "stripe-ios-spm"),
-                .product(name: "AppBoxoSDK", package: "appboxo-ios-spm")
+                .product(name: "BoxoSDK", package: "boxo-ios-spm")
             ])
     ]
 )

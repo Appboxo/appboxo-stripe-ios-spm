@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "appboxo-ios-spm",
+      "identity" : "boxo-ios-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Appboxo/appboxo-ios-spm.git",
+      "location" : "https://github.com/Appboxo/boxo-ios-spm.git",
       "state" : {
         "revision" : "45bdd51a7022df14b36ae877c17532e3cc92c53f",
-        "version" : "1.7.4"
+        "version" : "1.10.0"
       }
     },
     {

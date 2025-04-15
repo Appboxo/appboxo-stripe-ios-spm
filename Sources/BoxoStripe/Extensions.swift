@@ -1,6 +1,6 @@
 //
 //  Extensions.swift
-//  AppBoxoStripe
+//  BoxoStripe
 //
 //  Created by Azamat Kushmanov on 19/11/24.
 //

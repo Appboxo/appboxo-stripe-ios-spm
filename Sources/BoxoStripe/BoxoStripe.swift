@@ -3,11 +3,11 @@
 // https://docs.swift.org/swift-book
 
 import UIKit
-import AppBoxoSDK
+import BoxoSDK
 import StripePaymentSheet
 
-public class AppboxoStripe: NSObject {
-    @objc public static let shared = AppboxoStripe()
+public class BoxoStripe: NSObject {
+    @objc public static let shared = BoxoStripe()
     
     @objc public var publishableKey = "" {
         didSet {
